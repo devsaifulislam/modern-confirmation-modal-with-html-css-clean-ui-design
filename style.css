@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.modal-lock {
+  width: 260px;
+  padding: 24px;
+  border-radius: 18px;
+  background: #fff;
+  color: #0f172a;
+  text-align: center;
+  box-shadow: 0 25px 60px #0005;
+}
+
+.modal-lock h4 {
+  margin: 0 0 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-lock button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 999px;
+  background: #6366f1;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background .2s, transform .2s;
+}
+
+.modal-lock button:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+.modal-lock button:active {
+  transform: scale(.96);
+}
